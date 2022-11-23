@@ -1,0 +1,52 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.scoreboard-letter {
+    border: 1px black solid;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+}
+
+[class$="Attempt"] {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    background-color: whitesmoke
+}
+
+.correct {
+    background-color: green;
+}
+
+.notwrong {
+    background-color: yellow;
+}
+
+p {
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;;
+}
+
